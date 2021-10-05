@@ -84,8 +84,12 @@ footer a {
 }
 
 .hero-form h3 {
+    margin:0;
+    font-size: 28px;
+}
+
+.hero-form p {
     margin: 5px 0 15px 0;
-    font-size: 30px;
 }
 
 .form-input {
