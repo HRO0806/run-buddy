@@ -68,29 +68,44 @@ footer a {
     background-image: url("../images/hero-bg.jpg");
     height: 600px;
     background-size: cover;
-    background-position: center; 
+    background-position: center;
+    position: relative;
 }
 
 .hero-form {
     color: #024e76;
     background-color: #fce138;
-    float: right;
-    width: 550px;
-    height: 430px;
-    line-height: 2.5;
-    padding: 2%;
+    width: 500px;
+    padding: 20px;
     border: solid 3px #024e76;
-    margin: 0% 120px;
-    margin-top: 50px;   
+    position: absolute;
+    bottom: 120px;
+    right:140px;
+}
+
+.hero-form h3 {
+    margin: 5px 0 15px 0;
+    font-size: 30px;
+}
+
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.hero-form label {
+    margin: 0 5px;
 }
 
 button {
-    padding: 1%;
+    padding: 10px 20px;
+    font-size: 16px;
     color:#fce138;
     background-color: #024e76;
-}
-
-.user-input {
-    width: 300px;
-    display: block;
+    border: none;
 }
