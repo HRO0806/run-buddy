@@ -7,10 +7,10 @@ A website that offers fitness training services.
 * HTML
 * CSS
 
-##Website
+## Website
 https://hro0806.github.io/run-buddy/
 
-##Contribution
+## Contribution
 Made with love by Henry Olson
 
 ## ©️2019 Run Buddy,Inc
